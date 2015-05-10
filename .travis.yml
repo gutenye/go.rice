@@ -10,8 +10,7 @@ after_success:
 deploy:
   provider: releases
   api_key:
-    secure: v9vtnml6VExrlakBqK47kgd+fCVmX9hEd5NsCCjvy98yQlnoUgHhn/8JjgKrjL/ygCmfCjVLfu2+pGyi4B/03gIFsDUd3WFHEcpkl1ENIW679XaFyJ5VS2mcS0w17NVRXi8S9OirmUqOHab0P9uUr+osi5wFhn+wCoZx2LbnOnQ=
+    secure: mysNYdUGriW5oBZxHmaC1jlYEwgU6x+IEjbYe6mCMpVAMF850I6hlmrPcRh8w3UpSeRJnocG4KSzv+E8ZqY2LQKzehgU14QzqrNttH8XX9wg56yztvq1ZZYWSDjfNbHTCIIoPdDlt1ox+hoGzJw0a3x4AiP6/uu03KDzrTPTPziBEaocUkRdczcGwoLsUMmhTxjtzzml+oSJJdmApNXzlf5BWidk3FwCXYVjU514wcUlqFXZ0dOsw6ihN5T/VnK2SGK095EIEaiyWEWj7yEHWnDJ9VeDYazeETXTzaeT0TVx8vsu3nqZwzN89rpUy6sCNG9udQ/bQ0ghVxQFWAZHHcs+VHtWJ812e0zx/T1Roej7ZSUVxypzWJqbwiIr/ILOanCgwPFpGEwVrYhWZKoFsOEZ6zpb2qxZ/bG8HzV6RgIaYu+bZiHJJXFAjEO2G7ASD4MBsYTek+EmsLXa798mLXdxBDA3Hn/6Lvgiq7g4vPTIO2UZCiLwiulPOvjBzk/K67lA6jUKtNYgsfULElHoyOdadv3aFjf9udQiZkUfI+vdKitjLbY7tCvFCAFfjYZw6a18dO3JdnNcwubXg0dXLX3qKh2++CxEVvwOWmgU9sGQ48YaEPtBHzG+ItAMpeQgVwDDRleVD79EupKx74cQCeWhtxn+ek0jav+jdOtdIz4=
   file: dist/rice
-  skip_cleanup: true
   on:
-    tags: false
+    repo: gutenye/go.rice
