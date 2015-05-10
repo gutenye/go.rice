@@ -15,3 +15,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: gutenye/go.rice
+    tags: true
