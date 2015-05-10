@@ -5,7 +5,7 @@ script:
 
 after_success:
   - mkdir -p dist
-  - go build -v rice -o dist/rice
+  - go build -v ./rice -o dist/rice
 
 deploy:
   provider: releases
